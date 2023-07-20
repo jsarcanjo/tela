@@ -1,0 +1,6 @@
+Consulta = tk()
+consulta.title("Consulta informação")
+inf = lebel (Consulta, text= "Cique para ver informações")
+inf.grid(column=0, row=1, padx=10, pady=10)
+botao = Button(Consulta, text="ver informacao",)
+botao.grid(column=0, row=2, padx=10, pady=10)
